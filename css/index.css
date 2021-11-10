@@ -1,0 +1,54 @@
+:root {
+    --rosadoCukie: rgba(252, 127, 182, 1);
+    --blanco: #fff;
+}
+
+html {
+    font-size: 10px;
+}
+
+.header-principal-movil {
+    display: flex;
+    height: 70px;
+    background: var(--rosadoCukie);  
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    color: var(--blanco);
+
+    
+}
+
+.header-principal-movil .marcaCukieMayuscula
+{
+    font-family: liberation-sans;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--blanco);
+    font-size: 3rem;
+}
+
+.header-principal-movil .marcaCukieMinuscula
+{
+    font-family: liberation-sans;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--blanco);
+    font-size: 2.5rem;
+}
+
+
+.header-principal-movil .marcaDoo {
+    font-family: 'Gill Sans';
+    font-style: normal;
+    font-weight: 400;
+    color: var(--blanco);
+    font-size: 3rem;
+}
+
+
+
+.nav-movil {
+    color: var(--blanco);
+    font-size: 3rem;
+}
