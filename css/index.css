@@ -14,9 +14,12 @@ html {
     justify-content: space-between;
     align-items: center;
     padding: 0 5%;
-    color: var(--blanco);
+    color: var(--blanco);    
+    border: 1px solid purple ;
+}
 
-    
+.header-principal-movil .nav-movil-izq {
+    display: flex;
 }
 
 .header-principal-movil .marcaCukieMayuscula
@@ -37,11 +40,16 @@ html {
 
 
 .header-principal-movil .marcaDoo {
-    font-family:'Gill Sans';
+    font-family:'Gill Sans MT';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 100;
     color: var(--blanco);
     font-size: 3.0rem;
+}
+
+.byAOLAB {
+    font-family: "Century Gothic";
+    font-size: 1rem;
 }
 
 
