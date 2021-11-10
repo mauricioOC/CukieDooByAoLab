@@ -58,3 +58,15 @@ html {
     color: var(--blanco);
     font-size: 3rem;
 }
+
+
+.contenedor-imagen-banner {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contenedor-imagen-banner .foto-banner img {
+    width: 100%;
+
+}
