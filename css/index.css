@@ -37,11 +37,11 @@ html {
 
 
 .header-principal-movil .marcaDoo {
-    font-family: 'Gill Sans';
+    font-family:'Gill Sans MT';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     color: var(--blanco);
-    font-size: 3rem;
+    font-size: 3.0rem;
 }
 
 
