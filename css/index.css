@@ -15,7 +15,7 @@ html {
     align-items: center;
     padding: 0 5%;
     color: var(--blanco);    
-    border: 1px solid purple ;
+    border: 1px solid var(--rosadoCukie) ;
 }
 
 .header-principal-movil .nav-movil-izq {
@@ -41,7 +41,7 @@ html {
 
 .header-principal-movil .marcaDoo {
     font-family:'Gill Sans MT';
-    font-style: normal;
+    
     font-weight: 100;
     color: var(--blanco);
     font-size: 3.0rem;
