@@ -64,7 +64,16 @@ html {
     display: flex;
     flex-direction: column;
     
+    
 }
+
+.contenedor-imagen-banner .foto-banner {
+    background-image: url(/img/PosibleBanner2.jpg);
+    background-size: 115%;
+    min-height: 700px;
+    background-repeat: no-repeat;
+    }
+    
 
 .contenedor-imagen-banner .foto-banner img {
     width: 100%;
