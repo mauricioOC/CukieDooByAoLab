@@ -71,9 +71,10 @@ html {
     display: flex;
     
     background-image: url(/img/PosibleBanner2.jpg);
-    background-size: 115%;
-    min-height: 700px;
+    background-size: 200%;
+    min-height: 630px ;
     background-repeat: no-repeat;
+    border: 2px solid black;
    
     
     }
