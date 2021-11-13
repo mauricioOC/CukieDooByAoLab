@@ -68,14 +68,22 @@ html {
 }
 
 .contenedor-imagen-banner .foto-banner {
+    display: flex;
+    
     background-image: url(/img/PosibleBanner2.jpg);
     background-size: 115%;
     min-height: 700px;
     background-repeat: no-repeat;
+    padding: 35%;
+    
     }
     
 
-.contenedor-imagen-banner .foto-banner img {
-    width: 100%;
 
+.mySlides {
+    display: flex;
+    border-radius: 50%;
+    margin-top: -255px;
+    margin-left: 150px;
+    
 }
