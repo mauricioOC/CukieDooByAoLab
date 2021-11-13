@@ -69,17 +69,22 @@ html {
 
 .contenedor-imagen-banner .foto-banner {
     display: flex;
-    
+    flex-direction: column;
     background-image: url(/img/PosibleBanner2.jpg);
     background-size: 200%;
     min-height: 630px ;
     background-repeat: no-repeat;
     border: 2px solid black;
-   
-    
+       
     }
     
-
+    .contenedor-imagen-banner .foto-banner .titulo-banner {
+        font-size: 3rem;
+        font-family: 'Bebas Neue', cursive;
+        justify-content: center;
+        padding: 5%;
+        color:darkcyan;
+    }
 
 .mySlides {
     display: flex;
